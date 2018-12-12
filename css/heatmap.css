@@ -1,0 +1,18 @@
+.heatmap {
+  width: 1000px;
+  height: 425px;
+  background-image: url("../images/hockeyRink.gif");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+}
+
+#awayLogo, #homeLogo {
+  float: left;
+  height: 100%;
+  width: 50%;
+  opacity: 0.5;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+}
